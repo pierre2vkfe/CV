@@ -1,0 +1,63 @@
+body
+{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+#container
+{
+	flex-basis: 60%;
+}
+aside
+{	
+	background-color:rgb(229,57,53);
+	flex-basis:25% ;
+}
+h3
+{
+	color: rgb(229,57,53);
+	background-color: rgb(97,97,97)
+}
+h2
+{
+	border-bottom: 2px rgb(229,57,53) solid;
+}
+.dev
+{
+	border-bottom: 2px rgb(229,57,53) solid;
+}
+.date
+{
+	float: left;
+	width: 100px;	
+}
+article
+{	width: 350px;
+	margin-left: 200px
+	
+}
+.pierre
+{
+	color: rgb(229,57,53);
+
+}
+address
+{
+	margin-left: 30px;
+}
+@media all and (max-width: 825px)
+{
+	body
+	{
+		width: auto;
+	}
+	#container
+	{
+		flex-basis: 100%;
+	}
+	aside
+	{
+		flex-basis: 100%;
+	}
+}
